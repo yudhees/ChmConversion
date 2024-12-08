@@ -12,9 +12,8 @@ namespace Yudhees\ChmConversion\Traits\Booking;
 
 trait ChmJsonBookingConvert
 {
-    public static function processJson($template)
+    public static function processJson(): array
     {
-        $template = json_decode($template,true);
         $formattedJson=[];
         $template=self::getHierarchyParams();
         self::jsonRecursiveV2($template,$formattedJson);
