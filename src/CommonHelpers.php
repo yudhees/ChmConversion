@@ -1,6 +1,6 @@
 <?php
 
- namespace src;
+ namespace Yudhees\ChmConversion;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Cache;

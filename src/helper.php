@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace Yudhees\ChmConversion;
 
 if (!function_exists('def_pipeline_option')) {
     function def_pipeline_option(): array
