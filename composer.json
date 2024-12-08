@@ -24,5 +24,6 @@
         "illuminate/http": "^10.48",
         "illuminate/database": "^10.38",
         "mongodb/laravel-mongodb": "4.7"
-    }
+    },
+    "prefer-stable": true
 }
