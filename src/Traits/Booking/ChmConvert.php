@@ -1,12 +1,12 @@
 <?php
 
-namespace src\Traits\Booking;
+namespace Yudhees\ChmConversion\Traits\Booking;
 
 
-use src\Models\Booking\RdRooms;
+use Yudhees\ChmConversion\Models\Booking\RdRooms;
 use Carbon\Carbon;
 use Illuminate\Support\Str;
-use src\CommonHelpers;
+use Yudhees\ChmConversion\CommonHelpers;
 
 trait ChmConvert
 {

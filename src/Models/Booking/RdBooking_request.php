@@ -1,8 +1,8 @@
 <?php
 
-namespace src\Models\Booking;
+namespace Yudhees\ChmConversion\Models\Booking;
 
-use src\Models\Model;
+use Yudhees\ChmConversion\Models\Model;
 
 class RdBooking_request extends Model
 {

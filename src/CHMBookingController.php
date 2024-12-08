@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace Yudhees\ChmConversion;
 
 use Carbon\Carbon;
 use Exception;
@@ -8,15 +8,15 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
-use src\Models\BlockECP;
-use src\Models\Booking\RdBooking;
-use src\Models\Booking\RdRooms;
-use src\Models\ChmLogs;
-use src\Models\Partner;
-use src\Traits\Booking\ChmConvert;
-use src\Traits\Booking\ChmJsonBookingConvert;
-use src\Traits\Booking\ChmXmlBookingConvert;
-use src\Traits\Booking\AggrQuery;
+use Yudhees\ChmConversion\Models\BlockECP;
+use Yudhees\ChmConversion\Models\Booking\RdBooking;
+use Yudhees\ChmConversion\Models\Booking\RdRooms;
+use Yudhees\ChmConversion\Models\ChmLogs;
+use Yudhees\ChmConversion\Models\Partner;
+use Yudhees\ChmConversion\Traits\Booking\ChmConvert;
+use Yudhees\ChmConversion\Traits\Booking\ChmJsonBookingConvert;
+use Yudhees\ChmConversion\Traits\Booking\ChmXmlBookingConvert;
+use Yudhees\ChmConversion\Traits\Booking\AggrQuery;
 
 class CHMBookingController
 {

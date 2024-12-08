@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Models;
+namespace Yudhees\ChmConversion\Models;
 
 class Partner extends Model
 {

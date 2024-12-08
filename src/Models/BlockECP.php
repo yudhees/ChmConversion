@@ -1,8 +1,8 @@
 <?php
 
-namespace src\Models;
+namespace Yudhees\ChmConversion\Models;
 
-use src\Models\Model;
+use Yudhees\ChmConversion\Models\Model;
 
 class BlockECP extends Model
 {

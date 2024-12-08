@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Traits\Booking;
+namespace Yudhees\ChmConversion\Traits\Booking;
 
 trait AggrQuery
 {

@@ -7,7 +7,7 @@
  * phpcs:disable
  */
 
-namespace src\Traits\Booking;
+namespace Yudhees\ChmConversion\Traits\Booking;
 
 
 trait ChmJsonBookingConvert
