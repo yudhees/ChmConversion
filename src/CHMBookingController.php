@@ -207,7 +207,7 @@ class CHMBookingController
             self::$mappedParameters=$params;
             self::$channelsBlock=$channelsBlock;
             if($channelsBlock->type=='json')
-            $chmformatTemplate= self::processJson($template);
+            $chmformatTemplate= self::processJson();
             else
             $chmformatTemplate= self::precessXmlV2();
             return self::executeChmCall($chmformatTemplate);
