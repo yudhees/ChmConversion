@@ -207,10 +207,10 @@ class CHMBookingController
             self::$mappedParameters=$params;
             self::$channelsBlock=$channelsBlock;
             if($channelsBlock->type=='json')
-            $chmfomatTemplete= self::processJson($template);
+            $chmformatTemplate= self::processJson($template);
             else
-            $chmfomatTemplete= self::precessXmlV2();
-            return self::executeChmCall($chmfomatTemplete);
+            $chmformatTemplate= self::precessXmlV2();
+            return self::executeChmCall($chmformatTemplate);
 
         } catch (Exception $e) {
             Log::error('Error in CHMBookingController: ' . $e->getMessage(), ['exception' => $e]);
