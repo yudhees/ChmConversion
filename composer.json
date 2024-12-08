@@ -1,0 +1,28 @@
+{
+    "name": "yudhees/chm-conversion",
+    "description": "Chm Conversion",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yudhees\\ChmConversion\\": "src/",
+            "Src\\": "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "k.b.Yudhees Raam Kumar",
+            "email": "yudees.raamkumar@bakuun.com"
+        }
+    ],
+    "autoload-dev": {
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "require": {
+        "illuminate/support": "^10.48",
+        "illuminate/http": "^10.48",
+        "illuminate/database": "^10.38",
+        "mongodb/laravel-mongodb": "4.7"
+    }
+}
